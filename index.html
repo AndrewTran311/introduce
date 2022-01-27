@@ -9,9 +9,129 @@
     <script src="a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome.css">
+    <style type="text/css">
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/l?subset_id=2&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/d?subset_id=2&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/a?subset_id=2&fvd=n3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: normal;
+            font-display: auto;
+        }
 
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?subset_id=2&fvd=n4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/23e139/00000000000000007735e605/30/l?subset_id=2&fvd=n5&v=3) format("woff2"), url(https://use.typekit.net/af/23e139/00000000000000007735e605/30/d?subset_id=2&fvd=n5&v=3) format("woff"), url(https://use.typekit.net/af/23e139/00000000000000007735e605/30/a?subset_id=2&fvd=n5&v=3) format("opentype");
+            font-weight: 500;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?subset_id=2&fvd=n6&v=3) format("woff2"), url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/d?subset_id=2&fvd=n6&v=3) format("woff"), url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/a?subset_id=2&fvd=n6&v=3) format("opentype");
+            font-weight: 600;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/40d372/00000000000000007735e607/30/l?subset_id=2&fvd=i3&v=3) format("woff2"), url(https://use.typekit.net/af/40d372/00000000000000007735e607/30/d?subset_id=2&fvd=i3&v=3) format("woff"), url(https://use.typekit.net/af/40d372/00000000000000007735e607/30/a?subset_id=2&fvd=i3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: italic;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/3322cc/00000000000000007735e616/30/l?subset_id=2&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/3322cc/00000000000000007735e616/30/d?subset_id=2&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/3322cc/00000000000000007735e616/30/a?subset_id=2&fvd=i4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: italic;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'proxima-nova';
+            src: url(https://use.typekit.net/af/4de20a/00000000000000007735e604/30/l?subset_id=2&fvd=i7&v=3) format("woff2"), url(https://use.typekit.net/af/4de20a/00000000000000007735e604/30/d?subset_id=2&fvd=i7&v=3) format("woff"), url(https://use.typekit.net/af/4de20a/00000000000000007735e604/30/a?subset_id=2&fvd=i7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: italic;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'adobe-garamond-pro';
+            src: url(https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'adobe-garamond-pro';
+            src: url(https://use.typekit.net/af/fb3638/00000000000000003b9b00c3/27/l?subset_id=2&fvd=n6&v=3) format("woff2"), url(https://use.typekit.net/af/fb3638/00000000000000003b9b00c3/27/d?subset_id=2&fvd=n6&v=3) format("woff"), url(https://use.typekit.net/af/fb3638/00000000000000003b9b00c3/27/a?subset_id=2&fvd=n6&v=3) format("opentype");
+            font-weight: 600;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'adobe-garamond-pro';
+            src: url(https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/af619f/00000000000000003b9b00c5/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'adobe-garamond-pro';
+            src: url(https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/l?subset_id=2&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/d?subset_id=2&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: italic;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'adobe-garamond-pro';
+            src: url(https://use.typekit.net/af/6c275f/00000000000000003b9b00c6/27/l?subset_id=2&fvd=i7&v=3) format("woff2"), url(https://use.typekit.net/af/6c275f/00000000000000003b9b00c6/27/d?subset_id=2&fvd=i7&v=3) format("woff"), url(https://use.typekit.net/af/6c275f/00000000000000003b9b00c6/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: italic;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'din-condensed-web';
+            src: url(https://use.typekit.net/af/6bdfe3/000000000000000077359e30/30/l?subset_id=2&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/6bdfe3/000000000000000077359e30/30/d?subset_id=2&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/6bdfe3/000000000000000077359e30/30/a?subset_id=2&fvd=n3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: 'din-condensed-web';
+            src: url(https://use.typekit.net/af/cfbead/0000000000000000000146b3/27/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/cfbead/0000000000000000000146b3/27/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/cfbead/0000000000000000000146b3/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+        }
+    </style>
     <style>
-        
         .body {
             margin: 0;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -29,7 +149,7 @@
         .head {
             font-size: 30px;
             font-weight: 600;
-            font-family: proxima-nova;
+            font-family: 'proxima-nova';
             letter-spacing: .11em;
             text-decoration: none;
             color: #c7423f;
@@ -57,17 +177,18 @@
         }
 
         .title2 {
-            font-family: din-condensed-web;
-            font-weight: 550;
-            font-style: normal;
-            font-size: 20px;
-            line-height: 1.6em;
-            text-transform: uppercase;
             display: flex;
             align-items: center;
             justify-content: center;
             padding-bottom: 17px;
             background-color: #ffffff;
+            font-family: din-condensed-web;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            letter-spacing: .14em;
+            line-height: 1.6em;
+            text-transform: uppercase;
         }
 
         .body1 {
@@ -105,6 +226,7 @@
 
         .title3 {
             color: #747474;
+            font-family: adobe-garamond-pro;
             font-weight: 400;
             font-style: normal;
             font-size: 25px;
@@ -154,9 +276,17 @@
             background-color: #ffffff;
             padding-bottom: .05em;
             color: #747474;
-            padding-left: 20%;
-            padding-right: 20%;
+            padding-left: 19%;
+            padding-right: 19%;
             padding-bottom: 28px;
+            font-family: proxima-nova;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 16px;
+            letter-spacing: .02em;
+            line-height: 1.7em;
+            text-transform: none;
+            color: rgba(23, 23, 23, .8);
         }
 
         .content2 {
@@ -174,10 +304,11 @@
             font-family: adobe-garamond-pro;
             font-weight: 400;
             font-style: normal;
-            font-size: 20px;
+            font-size: 25px;
             letter-spacing: .01em;
             line-height: 1.4em;
             text-transform: none;
+            color: rgba(23, 23, 23, .8);
         }
 
         .title6 {
@@ -192,15 +323,15 @@
 
         .title7 {
             color: #747474;
+            padding-top: 80px;
+            padding-bottom: 10px;
             font-family: adobe-garamond-pro;
             font-weight: 400;
             font-style: normal;
-            font-size: 20px;
+            font-size: 25px;
             letter-spacing: .01em;
             line-height: 1.4em;
             text-transform: none;
-            padding-top: 80px;
-            padding-bottom: 10px;
         }
 
         .title8 {
@@ -251,7 +382,7 @@
         }
 
         .title10 {
-            font-family: proxima-nova;
+            font-family: 'proxima-nova';
             font-weight: 300;
             font-style: normal;
             font-size: 16px;
@@ -265,7 +396,7 @@
         .title11 {
             font-size: 12px;
             line-height: 1.68em;
-            font-family: proxima-nova;
+            font-family: 'proxima-nova';
             font-weight: 300;
             letter-spacing: .02em;
             text-transform: none;
@@ -307,21 +438,21 @@
             color: #c7423f;
             line-height: 1.2em;
             text-align: inherit;
-            font-family: din-condensed-web;
-            font-weight: 400;
-            font-style: normal;
             font-size: 24px;
-            letter-spacing: .06em;
             line-height: 1.4em;
-            text-transform: uppercase;
             padding-left: 44%;
             padding-top: 60px;
             background-color: #f5f4f2;
+            font-family: din-condensed-web;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: .06em;
+            text-transform: uppercase;
         }
 
         .title13 {
             line-height: 1.6em;
-            font-family: proxima-nova;
+            font-family: 'proxima-nova';
             font-weight: 300;
             font-style: normal;
             font-size: 16px;
@@ -380,18 +511,18 @@
 
         .content8 {
             color: rgb(0, 48, 48);
+            text-align: center;
+            justify-content: center;
+            font-size: 16px;
+            background-color: #f5f4f2;
+            padding-top: 20px;
+            padding-bottom: 80px;
             font-family: proxima-nova;
             font-weight: 300;
             font-style: normal;
             letter-spacing: .02em;
             line-height: 1.7em;
             text-transform: none;
-            text-align: center;
-            justify-content: center;
-            font-size: 12px;
-            background-color: #f5f4f2;
-            padding-top: 20px;
-            padding-bottom: 80px;
         }
     </style>
 </head>
@@ -423,7 +554,14 @@
         closet. In the middle of the raw and devastating aftermath, Zach finds the strength and determination to help
         the adults in his life rediscover the love and compassion needed to pull them through their darkest hour.
     </div>
-    <div style="text-align: center;"><a href="https://www.rhiannonnavin.com/only-child"
+    <div style="text-align: center;font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .02em;
+    line-height: 1.7em;
+    text-transform: none;
+    color: rgba(23,23,23,.8);"><a href="https://www.rhiannonnavin.com/only-child"
             style="color: #e1302d;padding-bottom: 50px;margin-bottom: 50px;">Learn more about the book →</a></div>
     <div class="content2">
         <div class="title5">"Only Child triumphs. Zach, at only 6 years old, understands more about the human heart than
@@ -435,8 +573,14 @@
             school shootings, love, loss, forgiveness, and pain."
         </div>
         <div class="title8">— Liz Egan and Elizabeth Logan, Glamour “All the Books We Can't Wait to Read in 2018”</div>
-        <div style="text-align: center;margin-bottom: 50px;padding-bottom: 50px;padding-top: 50px;"><a
-                href="https://www.rhiannonnavin.com/reviews" style="color: #e1302d;">Read More Reviews →</a></div>
+        <div style="text-align: center;margin-bottom: 50px;padding-bottom: 50px;padding-top: 50px;color: rgba(225,48,45,.6);    font-family: proxima-nova;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: .02em;
+        line-height: 1.7em;
+        text-transform: none;"><a href="https://www.rhiannonnavin.com/reviews" style="color: #e1302d;">Read More
+                Reviews →</a></div>
     </div>
     <div class="content3">
         <div class="content4">
@@ -498,7 +642,15 @@
     <div class="title11">photo credit: Michael Lionstar</div>
     <div class="content5">
         <div><a href="https://www.rhiannonnavin.com/buy" class="btn btn-danger btn-lg" style="font-size: 20px;
-            font-weight: 600;">BUY THE BOOK</a></div>
+            font-weight: 600;    font-family: proxima-nova;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #c7423f;
+    background-color: #fff;
+    border-color: #fff;">BUY THE BOOK</a></div>
     </div>
     <div class="content6">
         <div class="title12">COME ALONG</div>
